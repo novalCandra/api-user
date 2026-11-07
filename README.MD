@@ -25,3 +25,9 @@ melarang maka dia akan melarang apapun kecuali sesuai dengan role nya
 3. Penanganan Konkurensi (Concurrency)
 - untuk ini kita ambil dari milisecond dia ngambil waktu yang meraka ambil jika bersamaan kita bisa melihat di milisecond
 dan pakai db transaction yang dimana jika barang habis atau masih ada akan di check ke db transaction dan jika uda habis maka akan melempar pesan ui dan tidak akan berkurang saldo atau dll yang di kirim kan karena db transaction proses adalah seperti simpan dulu sementara dan aku check apakah ada barang ada atau tidak
+
+
+
+CARA PAKAI NYA ADALAH :
+- npm install
+- npx knex migrate:latest
