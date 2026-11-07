@@ -1,4 +1,4 @@
-const knex = require("./knex.module.js")
+const knex = require("./knex.service.js")
 
 const moduleGetData = async ({ page, limit }) => {
     const offset = (page - 1) * limit

@@ -1,4 +1,4 @@
-const { moduleGetData, moduleDelete, modulePostingan, moduleUpdate, moduleQuerySearh } = require("../models/barang.models")
+const { moduleGetData, moduleDelete, modulePostingan, moduleUpdate, moduleQuerySearh } = require("../service/barang.service")
 
 const getcontrollerbarang = async (req, res) => {
     try {

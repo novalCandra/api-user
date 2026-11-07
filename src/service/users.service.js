@@ -1,4 +1,4 @@
-const knex = require("./knex.module.js")
+const knex = require("./knex.service.js")
 const createUsersModule = (body) => {
     return knex.dbConfig.knexJs("users").insert({ name: body.name, email: body.email, password: body.password })
 }
